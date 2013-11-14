@@ -1,0 +1,23 @@
+g text.title {
+	fill: white;
+}
+
+circle {
+	fill: red;
+}
+
+circle.interface {
+	fill: gray;
+}
+
+circle.class {
+	fill: #559;
+}
+
+circle.file {
+	fill: #aaf;
+}
+
+circle.data {
+	fill: gray;
+}

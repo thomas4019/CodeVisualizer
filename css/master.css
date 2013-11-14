@@ -1,0 +1,22 @@
+ul {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: red;
+}
+
+ul.interface {
+	background-color: gray;
+}
+
+ul.class {
+	background-color: #559;
+}
+
+ul.file {
+	background-color: #aaf;
+}
+
+ul.data {
+	background-color: gray;
+}
