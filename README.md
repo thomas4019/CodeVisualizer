@@ -6,8 +6,8 @@ The extent of detail for information shown varies based on the size of project a
 
 See it in action
 ----------------
-Checkout the [Live Demo](http://thomashansen.me/CodeVisualizer/).
-The graph is created using this [JSON data](http://thomashansen.me/CodeVisualizer/data/HyPeerWeb.js) in case you're interested
+Checkout the [Live Demo](http://thomashansen.me/CodeVisualizer/). Note: Use the scroll wheel to zoom in and out. Click to pan.
+<!---The graph is created using this [JSON data](http://thomashansen.me/CodeVisualizer/data/HyPeerWeb.js) in case you're interested!-->
 
 Features
 --------
