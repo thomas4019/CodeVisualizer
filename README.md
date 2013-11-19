@@ -11,13 +11,13 @@ The graph is created using this [JSON data](http://thomashansen.me/CodeVisualize
 
 Features
 --------
-* [ ] Start visualization by providing a URL to a GIT, Subversion, or CVS repository.
+* Start visualization by providing a URL to a GIT, Subversion, or CVS repository.
 (Alternatively allow the user to upload a zip file with code)
-* [x] Instantly provide a visual graph where every class/file in the project is represented by a node
-* [x] List all public functions around the exterior of each node
-* [ ] List all private functions within each node
-* [ ] Group classes within packages visually
-* [x] Draw lines representing function calls
+* Instantly provide a visual graph where every class/file in the project is represented by a node
+* List all public functions around the exterior of each node
+* List all private functions within each node
+* Group classes within packages visually
+* Draw lines representing function calls
 
 Fuzzy Features
 --------------
