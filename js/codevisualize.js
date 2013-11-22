@@ -67,10 +67,12 @@ function place(entity) {
   packages[g].radius = radius;
 }
 
-d3.json("data/field_collection.js", function(json) {
-	//console.log(json);
+/*d3.json("data/field_collection.js", visualize);*/
+
+visualize(jsonData);
+
+function visualize(json) {
 	var data = $.map(json, function (value, key) { return value; });
-	//console.log(data);
 
   var locations = {};
 
@@ -143,7 +145,6 @@ d3.json("data/field_collection.js", function(json) {
       angle = 360 / count;
       return 'rotate(' + Math.round(-90+i*angle) + ')';
     })
-    //.attr('dx', 125)
   	.each(function(e) {
   		$(this).tipsy({gravity: 'e'});
   	})
@@ -155,8 +156,6 @@ d3.json("data/field_collection.js", function(json) {
     .attr('y1', function(d) { return 0; }) //$(this.parentNode).offset().top;
     .attr('data-target', function(d) { return d; })
     .attr('x2', function(d) {
-      //if (!locations[d])
-      //  console.log(d);
       x = locations[d] ? locations[d].left - $(this).offset().left : 0;
       return x ;
     })
@@ -165,8 +164,6 @@ d3.json("data/field_collection.js", function(json) {
       return y;
     })
     .attr('style', 'stroke:rgb(255,0,0);stroke-dasharray("5,5");stroke-width:2;');
-
-    //console.log(locations);
 
   	//svg = Viz("digraph { a -> b; b -> a}", "svg");
   	//svg = Viz($('#data').html(), "plain");
@@ -178,4 +175,4 @@ d3.json("data/field_collection.js", function(json) {
   			func.usage.forEach( function(func) {
   		});
   	});*/
-});
+}

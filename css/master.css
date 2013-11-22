@@ -1,22 +1,37 @@
-ul {
+circle {
+
+	float: left;
+	width: 300px;
+	overflow: hidden;
+
+	margin: 10px;
+	padding: 5px;
+
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	background-color: red;
+
+	font-weight: bold;
 }
 
-ul.interface {
-	background-color: gray;
+circle &.interface {
+	fill: gray;
 }
 
-ul.class {
-	background-color: #559;
+circle &.class {
+	fill: #559;
 }
 
-ul.file {
-	background-color: #aaf;
+circle &.file {
+	fill: #aaf;
 }
 
-ul.data {
-	background-color: gray;
+circle &.data {
+	fill: gray;
+}
+
+circle li {
+	list-style-type: none;
+	font-weight: normal;
+	text-indent: 20px;
 }
