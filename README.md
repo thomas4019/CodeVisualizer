@@ -37,18 +37,8 @@ James uses our system to learn how the code is setup and can add the desired cha
 3. At ACME Software the engineering team is debating about how to refactor their code. 
 They would like an overview of their code to be able to discuss it's weaknesses and how to improve it.
 
-Future Plans
------------
-* Pricing model similar to GitHub. Free for open-source projects
-* Small monthly payment for a single developer to view private projects
-* Different payment plans for large institutions
-* Promote and offer free premium plans to college students.
-When they graduate they will remember the solution and possibly encourage their employers to setup accounts
-* When business becomes big sell to large company (google, microsoft, yahoo, ...) for nothing less than millions
-
-Competition
------------
-There is no modern solution in this market. Here is a summary of other source code documentation and visualization products.
+Other documentation generation software
+---------------------------------------
 
 [Doxygen](http://www.stack.nl/~dimitri/doxygen/) (Free) A leading solution which was started in 1997 (and hasn't changed much since then).
 It can provide call graphs but those don't work for large projects.
