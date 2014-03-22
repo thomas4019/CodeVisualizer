@@ -11,7 +11,7 @@ Checkout the [Live Demo](http://thomashansen.me/CodeVisualizer/). Note: Use the 
 
 Features
 --------
-* Start visualization by providing a URL to a GIT, Subversion, or CVS repository.
+* Start visualization by providing a URL to a GIT, Subversion, or CVS repository
 (Alternatively allow the user to upload a zip file with code)
 * Instantly provide a visual graph where every class/file in the project is represented by a node
 * List all public functions around the exterior of each node
